@@ -1,5 +1,5 @@
 function obtenerPersonaje() {
-  const url = 'https://rickandmortyapi.com/api/charactersa  r1111||3w';
+  const url = 'https://rickandmortyapi.com/api/character/13';
 
   fetch(url)
     .then(response => response.json())
